@@ -19,7 +19,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '19680279'))
 API_HASH = environ.get('API_HASH', 'a32f974ade51b2dc74e8db4bb049ad01')
-BOT_TOKEN = environ.get('BOT_TOKEN', "5609134811:AAFqFxDaiKISZWPBqKadshQQJBvKscmirkk")
+BOT_TOKEN = environ.get('BOT_TOKEN', "5609134811:AAFJTR1EVDQwxo9goAg9VQ8T2WZyAqrfVn4")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
@@ -67,7 +67,7 @@ IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', False))
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '-1001564479472').split()]
 MAX_B_TN = environ.get("MAX_B_TN", "8")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
-PORT = environ.get("PORT", "8181")
+PORT = environ.get("PORT", "10005")
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+KqYvuXINs9cwMDdl')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/SeriesXOfficial')
 TUTORIAL = environ.get('TUTORIAL', '')
